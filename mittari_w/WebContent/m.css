@@ -1,0 +1,6 @@
+@charset "ISO-8859-1";
+
+BODY	{ color: rgb(255,255,255);
+        background-color: rgb(8,0,52);
+		font-size: 8vw; font-family: arial;       	
+		}
