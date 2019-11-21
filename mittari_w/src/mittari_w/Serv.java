@@ -20,6 +20,9 @@ public class Serv extends HttpServlet {
 		Scanner sc = new Scanner(url.openStream(), StandardCharsets.UTF_8.toString());
 		StringBuilder body = new StringBuilder();
 		
+		body.append(sc.nextLine() + "<br>");
+		body.append("<hr>");
+		
 			while (sc.hasNextLine())
 			{
 			//append lines and add linebreaks

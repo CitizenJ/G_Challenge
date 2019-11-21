@@ -4,3 +4,10 @@ BODY	{ color: rgb(255,255,255);
         background-color: rgb(8,0,52);
 		font-size: 8vw; font-family: arial;       	
 		}
+		
+HR		{ color: rgb(255,255,255);
+		background-color: rgb(255,255,255);
+		height: 3px;
+		width: 100%;
+		border: 0;
+		}]
