@@ -15,7 +15,7 @@ Since the program is rather simple, we can do a step by step breakdown on how it
 5. The first line of the text feed, containing date and time is appended to "body".
 6. A HTML HR (Horizontal Rule) element is appended in body in order to visually separate the date and time from register values.
 7. A while loop will go through the rest of lines, containing register values, until there's no more lines left. Each line, along a HTML BR (Line break) element, will be appended to "body".
-8. As it's no longer needed, the Scanner object "sc" is closed;
+8. As it's no longer needed, the Scanner object "sc" is closed.
 9. An attribute is set to the request, which is given "content" (matching the EL expression ${content} in the index.jsp) as a name and the contents of "body", converted to string as a value.
 10. The request is then forwarded to index.jsp.
 11. index.jsp receives the "content" attribute, matches it with the ${content} expression, and sets its contents in that place.
