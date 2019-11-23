@@ -23,6 +23,7 @@ Since the program is rather simple, we can do a step by step breakdown on how it
 
 #### Other notes
 
+* The relevant code is in the "mittari_w" folder. "mittari" is a test project that simply reads the contents of "feed.txt" and prints them on a console. 
 * Because this application uses entirely server side scripting, it should theoretically work without problems regardless of device or browser used, given that it's deployed on a compatible server like Apache Tomcat or JBoss.
 * To account for various screen sizes, the font size is defined relative to viewport. As some mobile devices have pretty small screens, the font size is rather generous 6vw. This may look ridiculously huge in larger screens.
 * index.jsp is placed in the WEB-INF folder in order to prevent users directly accessing it.
