@@ -14,7 +14,7 @@ Since the program is rather simple, we can do a step by step breakdown on how it
 4. A StringBuilder "body" is created to contain the data. A StringBuilder is used in lieu of standard String because of its inbuilt append() method, which is vastly more convenient way to append strings than the various concatenation methods available for standard String class.
 5. The first line of the text feed, containing date and time is appended to "body".
 6. A HTML HR (Horizontal Rule) element is appended to "body" in order to visually separate the date and time from register values.
-7. A while loop will go through the rest of lines, containing register values, until there's no more lines left. Each line, along a HTML BR (Line break) element, will be appended to "body".
+7. A while loop will go through the rest of lines, containing register values, until there's no more lines left. Each line, along a with HTML BR (Line break) element, will be appended to "body".
 8. As it's no longer needed, the Scanner object "sc" is closed.
 9. An attribute is set to the request, which is given "content" (matching the EL expression ${content} in the index.jsp) as a name and the contents of "body", converted to string as a value.
 10. The request is then forwarded to index.jsp.
